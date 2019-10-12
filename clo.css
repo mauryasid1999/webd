@@ -1,0 +1,100 @@
+    .clo{
+       height: 200px;
+       width: 200px;
+       background: black;
+       border-radius: 50%;
+       position: relative;
+       border: 1px solid black;
+
+    }
+    .point{
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        background-color: white;
+        transform: translate(-50%,50%);
+        border-radius: 50%;
+    }
+    .name{
+        font-size: 10px;
+        position: absolute;
+        left :32%;
+        top: 25%;
+        background-color: black;
+        color: white;
+
+    }
+    .number{color: white;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transform: rotate(calc(var(--r)*1deg));
+    }
+    .n1{
+        --r:30;
+    }
+    .n2{
+        --r:60;
+    }
+    .n3{
+        --r:90;
+    }
+    .n4{
+        --r:120;
+    }
+    .n5{
+        --r:150;
+    }
+    .n6{
+        --r:180;
+    }
+    .n7{
+        --r:210;
+    }
+    .n8{
+        --r:240;
+    }
+    .n9{
+        --r:270;
+    }
+    .n10{
+        --r:300;
+    }
+    .n11{
+        --r:330;
+    }
+    .n12{
+        --r:360;
+    }
+    .set
+    {
+      --r:0;
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%) rotate(calc(var(--r)*1deg));
+        transform-origin: bottom;
+        
+    }
+
+    .H{
+        width: 8px;
+        height: 32%;
+        background-color: blue;
+        
+    }
+    .M{
+        width: 5px;
+        height: 40%;
+        background-color: white;
+        
+    }
+    .S{
+        width: 2px;
+         height: 48%;
+         background-color:white;
+        
+    }
