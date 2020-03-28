@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="port.css">
+    <style>
+            #grad1 {
+        width: 100%;
+        height: 100%;
+              background-color: red; 
+              background-image: linear-gradient(to right, red , yellow); 
+              background-size: cover;
+            }
+            </style>
+</head>
+<body>
+    <div class="background">
+
+    </div>
+    <div id="grad1">
+    <div class="nav">
+        <a class="a active" href="#">HOME</a>
+        <a class="b" href="#">ABOUT ME</a>
+        <a class="c" href="#">SKILLS AND ACHIEVEMENT</a>
+        <a class="d" href="#">CONTACT US</a>
+    </div>
+    
+<div class="content">
+
+    <div class="home">
+        <img src="C:\Users\Asus\Desktop\html and css file/IMGsid.jpg">
+        <h1>I am Siddhant Maurya</h1><hr>
+        <h3>Full Stack Developer</h3>
+    </div>
+    <div class="about">
+        <p><b>Jai Hind Everybody,</b><br>
+        My name is Siddhant Maurya.I a'm 21 years old.I a'm from city Ayodhya of state Uttar Pradesh.Currently I am pursing btech with Information Technology branch
+        from reputed  Ajay Kumar Garg Engineering College.</p><br>
+        <p>I did my Class 12 from S.R. senior secondry  School with scoring of 76.4% percentage.And 
+            I did my  class 10 from Tiny Tots Senior Secondry School with 9.8 CGPA.I am an average student.
+            I worked on various Technology.I learned HTML,CSS and JAVASCRIPT for developing webpage.Also worked on
+            server side scripting langauge that is Django and using MONGODB as database.
+            Made many projects related to web developing.Also work on Android App Development Technology.
+            MAde many apps and hands on experience on this.My hobby is to play various sports mainly cricket.
+        </p>
+
+    </div>
+
+    <div class="skill">
+        <h2>SKILLS</h2>
+        <div class="dev1">
+        <h4 ># PYTHON/DJANGO DEVELOPMENT</h4>
+        <img src="devdja.jpg">
+        
+        </div>
+        <div class="dev2">
+        <h4># ANDROID APP DEVELOPMENT</h4>
+        <img src="anddev.jpg">
+     </div>
+    </div>
+
+    <div class="contact">
+        <div class="form">
+            <form action="" method="POST">
+                <input type="text" name=" " class="inputt" value="first name">
+                <input type="text" name=""  class="inputt"value="last name">
+                <input type="text" name="" class="inputt" value="email-id">
+                <textarea cols="4" rows="6" class="message">Your Message!!!</textarea>
+                <input type="button" name="" class="sub" value="submit"><br>
+                
+            </form>
+        </div>
+        <div class="follow">
+            <h4>Follow Us On:</h4>
+
+        </div>
+      
+
+    </div>
+
+
+
+
+</div>
+
+
+
+<script type="text/javascript" src="C:\Users\Asus\Desktop\html and css file/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+   $('a').click(function(){
+  var selected=$(this);
+  $('a').removeClass('active');
+  $(selected).addClass('active');
+});
+
+var  $a=$('.a'),
+$b=$('.b'),
+$c=$('.c'),
+$d=$('.d'),
+$home=$('.home'),
+$about=$('.about'),
+$skill=$('.skill'),
+$contact=$('.contact');
+
+$a.click(function(){
+    $home.fadeIn();
+    $about.fadeOut();
+    $skill.fadeOut();
+    $contact.fadeOut();
+});
+$b.click(function(){
+$about.fadeIn();
+$home.fadeOut();
+$skill.fadeOut();
+$contact.fadeOut();
+});
+$c.click(function(){    
+$skill.fadeIn();
+$about.fadeOut();
+$home.fadeOut();
+$contact.fadeOut();
+});
+$d.click(function(){
+    $contact.fadeIn();
+    $skill.fadeOut();
+    $about.fadeOut();
+    $home.fadeOut();
+})
+});
+</script>
+</div>
+    
+</body>
+</html>
