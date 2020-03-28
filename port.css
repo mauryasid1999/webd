@@ -1,0 +1,178 @@
+html,body{
+width: 100%;
+height: 100%;
+}
+
+
+.nav
+{
+    width: 350px;
+    height: auto;
+   
+    top: 20%;
+    position: absolute;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: verdana;
+    font-weight: bold;
+    display: inline-block;
+    height: 90px;
+    margin: 5px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    transition: 300ms;
+}
+a.active{
+    background-color: white;
+    color: black;
+}
+a.active,.nav a:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+.a{
+    width: 95%;
+}
+.b{
+    width: 90%;
+}
+.c{
+    width: 85%;
+}
+.d{
+    width: 90%;
+}
+.content{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.home{
+    width: 70%;
+    height: 70%;
+}
+.home img
+{border-radius: 50%;
+    width: 230px;
+    height: 220px;
+    border: 5px solid transparent;
+    padding: 2px;
+}
+.home img :hover{
+    -webkit-transform:scaleX(-1);
+    transform: scaleX(-1);
+}
+.home h1{
+  text-shadow: 2px 2px 5px red;
+  font-size: 40px;
+  margin-top: 10%;
+}
+hr{
+    color: black;
+}
+.home h3{
+    text-shadow: 2px 2px 5px red;
+    font-size: 30px;
+    padding: 5px 0;
+    opacity: 0.6;
+}
+.about{
+    position: absolute;
+    top: 2px;
+    color:black;
+    font-family: century gothic;
+    padding: 0 60px;
+    display: none;
+}
+.about p{
+
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.skill{
+    position: absolute;
+    display: none;
+    width: 90%;
+    height: 70%;
+}
+.skill img{
+    width: 30%;
+    height: 50%;
+}
+.skill h2{
+    font-weight: bold;
+    font-size:50px ;
+}
+.skill h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dev1{
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+.dev1 img{
+    width: 40%;
+}
+.dev2{
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+.dev2 img {
+    float: left;
+    width: 40%;
+}
+.contact{
+   width: 60%;
+    height: 80%;
+    color: white;
+    right: 0;
+    top:10px;
+    padding: 0 60px;
+    display: none;
+
+}
+.inputt{
+    width: 50%;
+    height: 60px;
+    border: 3px solid black;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(0,0,0,0.7);
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+.message{
+    width: 50%;
+    height: 100px;
+    border: 3px solid black;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(0,0,0,0.7);
+    padding: 0 10px;
+    float: left;
+}
+.sub
+{
+    width: 140px;
+    height: 65px;
+    border: none;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-family: arial;
+    float: left;
+    clear: both;
+    margin-top: 25px;
+}
+
